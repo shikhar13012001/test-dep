@@ -44,3 +44,5 @@ async def query_cult_agent(query: CultQueryInput) -> CultQueryOutput:
 if __name__ == '__main__':
     import uvicorn
     uvicorn.run(app)
+
+
